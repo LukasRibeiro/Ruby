@@ -1,6 +1,6 @@
 <h1>Automatização de testes com ruby e selenium webdriver</h1>
 
-<p>Estes sao alguns dos codigos realizados no estagio de teste de softwrae, utilizando ruby como linguagem de programaçaõ
+<p>Estes sao alguns dos codigos realizados no estagio de teste de softwrae, utilizando ruby como linguagem de programação
 e utilizando selenium webdriver para automatização e navegação em sistemas web. </p>
 
 <h3>Ruby</h3>
