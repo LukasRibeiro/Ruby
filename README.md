@@ -53,7 +53,7 @@ A documentação do selenium pode ser encontrada em https://www.seleniumhq.org/d
 
 <p>Para instalar o ruby no windows, basta entrar no site https://rubyinstaller.org/ e fazer o download de acordo com a arquitetura do sistema operacional</p>
 
-<p>Caso esteja utilizando linux (Debian, ubuntu e derivados), basta entrar no terminal e digitar "sudo apt install ruby-full"</p>
+<p>Caso esteja utilizando linux (Debian, ubuntu e derivados), basta entrar no terminal e digitar <b>"sudo apt install ruby-full"</b></p>
 
 <h4>Instalando o selenium webdriver</h4>
 
@@ -61,13 +61,13 @@ A documentação do selenium pode ser encontrada em https://www.seleniumhq.org/d
   
 Uma “RubyGem” ou simplesmente “Gem” é uma biblioteca, um conjunto de arquivos Ruby reusáveis, etiquetada com um nome e uma versão (via um arquivo chamado de “gemspec”).
 
-OBS: podemos assimilar que a rubygem é como o gerenciador de pacotes npm para node.js, porem para a linguagem ruby.
+<b>OBS:</b> podemos assimilar que a <b>rubygem</b> é como o gerenciador de pacotes <b>npm</b> para node.js, porem para a linguagem ruby.
 
-Atraves do CMD, (terminal no linux), basta digitar o comando "gem install selenium-webdriver" apos digitar esse comando, a gem do selenium sera instalada.
+Atraves do CMD, (terminal no linux), basta digitar o comando <b>"gem install selenium-webdriver"</b>, ou se estiver usando um sistema operacional linux basta digitar <b>"sudo gem install selenium-webdriver"</b>. Após digitar esse comando, a gem do selenium sera instalada.
 </p>
 
 <h4>Instalando o Rspec</h4>
 
-<p>Para instala ro rspec em seu computador, basta acessar o CMD(terminal no linux) e digitar "gem install rspec" para windows e "sudo gem install rspec" para linux.</p>
+<p>Para instala ro rspec em seu computador, basta acessar o CMD(terminal no linux) e digitar <b>"gem install rspec"</b> para windows e <b>"sudo gem install rspec"</b>, para linux.</p>
 
-<p>Enfim, para executar o programa basta abrir o terminal e digitar ruby(nome do arquivo)</p>
+<p>Enfim, para executar o programa basta abrir o terminal e digitar <b>ruby(nome do arquivo)</b></p>
