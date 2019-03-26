@@ -31,7 +31,10 @@ balanceava programação funcional com programação imperativa.
 mais orientada a objetos do que Python. É por isso que eu decidi desenvolver
 minha própria linguagem.&quot; Yukihiro Matsumoto.
 
-A documentação do Ruby esta disponivel em: https://www.ruby-lang.org/pt/documentation/
+A documentação do Ruby esta disponivel em: 
+```
+https://www.ruby-lang.org/pt/documentation/
+```
 </p>
 
 <h3>Selenium webdriver</h3>
@@ -40,7 +43,11 @@ A documentação do Ruby esta disponivel em: https://www.ruby-lang.org/pt/docume
 
 O Selenium WebDriver faz chamadas diretamente ao navegador utilizando o suporte à automação nativo de cada navegador. Assim os testes escritos com o WebDriver são bastante realistas, pois chama diretamente o navegador. Além disso, o Selenium Webdriver suporta praticamente todos os navegadores web existentes: Google Chrome, Firefox, Internet Explorer, Safari, Opera, etc.
 
-A documentação do selenium pode ser encontrada em https://www.seleniumhq.org/docs/03_webdriver.jsp
+A documentação do selenium pode ser encontrada em: 
+
+```
+https://www.seleniumhq.org/docs/03_webdriver.jsp
+```
 </p>
 
 <h3>Rspec</h3>
@@ -53,21 +60,44 @@ A documentação do selenium pode ser encontrada em https://www.seleniumhq.org/d
 
 <p>Para instalar o ruby no windows, basta entrar no site https://rubyinstaller.org/ e fazer o download de acordo com a arquitetura do sistema operacional</p>
 
-<p>Caso esteja utilizando linux (Debian, ubuntu e derivados), basta entrar no terminal e digitar <b>"sudo apt install ruby-full"</b></p>
+<p>Caso esteja utilizando linux (Debian, ubuntu e derivados), basta entrar no terminal e digitar 
+
+```
+sudo apt install ruby-full
+```
+</p>
 
 <h4>Instalando o selenium webdriver</h4>
 
-<p>Para podermos usar o selenium webdriver com Ruby, vamos fazer a instalação da "GEM" do selenium WebDriver.
+<p>Para podermos usar o selenium webdriver com Ruby, vamos fazer a instalação da <b>"GEM"</b> do selenium WebDriver.
   
-Uma “RubyGem” ou simplesmente “Gem” é uma biblioteca, um conjunto de arquivos Ruby reusáveis, etiquetada com um nome e uma versão (via um arquivo chamado de “gemspec”).
+Uma <b>“RubyGem”</b> ou simplesmente “Gem” é uma biblioteca, um conjunto de arquivos Ruby reusáveis, etiquetada com um nome e uma versão (via um arquivo chamado de “gemspec”).
 
 <b>OBS:</b> podemos assimilar que a <b>rubygem</b> é como o gerenciador de pacotes <b>npm</b> para node.js, porem para a linguagem ruby.
 
-Atraves do CMD, (terminal no linux), basta digitar o comando <b>"gem install selenium-webdriver"</b>, ou se estiver usando um sistema operacional linux basta digitar <b>"sudo gem install selenium-webdriver"</b>. Após digitar esse comando, a gem do selenium sera instalada.
+Atraves do CMD, (terminal no linux), basta digitar o comando 
+
+```
+"gem install selenium-webdriver"
+```
+ou se estiver usando um sistema operacional linux basta digitar 
+```
+"sudo gem install selenium-webdriver"
+```
+Após digitar esse comando, a gem do selenium sera instalada.
 </p>
 
 <h4>Instalando o Rspec</h4>
 
-<p>Para instala ro rspec em seu computador, basta acessar o CMD(terminal no linux) e digitar <b>"gem install rspec"</b> para windows e <b>"sudo gem install rspec"</b>, para linux.</p>
+<p>Para instala ro rspec em seu computador, basta acessar o CMD e digitar o comando abaixo para windows 
+ 
+ ```
+ "gem install rspec" 
+ ```
+para sistemas operacionais linux basta digitar o comando:
+```
+"sudo gem install rspec" 
+```
+</p>
 
 <p>Enfim, para executar o programa basta abrir o terminal e digitar <b>ruby(nome do arquivo)</b></p>
